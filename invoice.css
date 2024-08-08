@@ -1,0 +1,151 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/bckground.jpg) no-repeat center center/cover;
+    color: #ffffffe0;
+}
+
+header {
+    background-color: #0a0808e0;
+    color: #f6eeee;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 70px;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #333b42;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color:#1d2329;
+}
+
+.content {
+    flex: auto;
+    background-color: #100d0de0;
+    padding: 30px;
+    padding-left: 100px;
+    margin-right: 400px;
+    margin-left: 400px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    font-weight: bold;
+    
+    
+}
+h2{
+    padding-left: 140px;
+}
+
+.car {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.car h3 {
+    margin: 0;
+    padding: 10px 0;
+}
+
+.car p {
+    margin: 0;
+    padding: 0 10px;
+}
+
+.car button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #0c0808;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.car button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color:#333b42;
+    color: #0e0c0c;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.form {
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input,
+form select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #0b0a0a;
+    border-radius: 3px;
+    box-sizing: border-box;
+}
+
+form button {
+    background-color: #333;
+    color: #0b0a0a;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+}

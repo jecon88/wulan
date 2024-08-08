@@ -1,0 +1,181 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/bckground.jpg) no-repeat center center/cover;
+    color: #333;
+}
+
+header {
+    background-color: #ffffffe0;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 70px;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #333b42;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #1d2329;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+
+.sidebar {
+    text-align: center;
+    width: 25%;
+    background-color: #ffffffe0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.sidebar h3 {
+    margin-top: 0;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar li {
+    margin: 10px 0;
+}
+
+.sidebar a {
+    text-decoration: none;
+    color: #413939;
+    font-weight: bold;
+}
+
+.sidebar a:hover {
+    color: #f0f8f2;
+}
+
+.content {
+    flex: 1;
+    background-color: #ffffffe0;
+    padding: 20px;
+    margin-left: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.car {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.car img {
+    max-width: 100%;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.car h3 {
+    margin-top: 10px;
+}
+
+.car p {
+    margin: 5px 0;
+}
+
+.car button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.car button:hover {
+    background-color: #0056b3;
+}
+
+footer {
+    background-color: #333b42;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.marquee {
+    background-color: #ffffffe0;
+    color: #333;
+    text-align: center;
+    padding: 10px 0;
+    
+    width: 100%;
+    bottom: 40px;
+}
+
+.marquee h3 {
+    display: inline-block;
+    animation: scroll-left 10s linear infinite;
+    margin: 0;
+
+}
+
+button {
+    width: 100%;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+
+
+/* Scroll animation for the marquee */
+@keyframes scroll-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+

@@ -1,0 +1,93 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url(img/bckground.jpg) no-repeat center center/cover;
+    color: #f7f0f0e0;
+}
+
+header {
+    background-color: #181212e0;
+    color: #0d0b0b;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo {
+    height: 70px;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: #333b42;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: #131111;
+    text-decoration: none;
+    padding: 10px 20px;
+    display: inline-block;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: #1d2329;
+}
+
+.container {
+    display: flex;
+    margin: 20px;
+}
+.profile-pic {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+    background-color: rgb(12, 10, 10);
+    max-width: 800px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #454f5a;
+    border-bottom: 2px solid #454f5a;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    
+}
+
+ul {
+    list-style-type: disc;
+    padding-left: 20px;
+}
+
+.profile-section, .education-section, .skills-section, .contact-section {
+    margin-bottom: 20px;
+}
+
+
+footer {
+    background-color: #333b42;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    width: 100%;
+    flex-shrink: 0;
+}
